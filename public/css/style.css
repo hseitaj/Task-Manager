@@ -1,0 +1,21 @@
+/* public/css/style.css */
+
+/* Style for the body element */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Style for the task list */
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for each task item */
+#task-list li {
+    background-color: #f4f4f4;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 4px;
+}

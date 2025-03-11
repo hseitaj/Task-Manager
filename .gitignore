@@ -1,0 +1,5 @@
+# .gitignore
+# Ignore any local configuration files, logs, or system files.
+*.log
+db/*.sql~
+vendor/
