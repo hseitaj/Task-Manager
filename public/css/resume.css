@@ -1,0 +1,100 @@
+/* public/css/resume.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background: #f0f2f5;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  header .contact,
+  header .links {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  header a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    font-size: 1.8em;
+    color: #007BFF;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .experience-item,
+  .education-item {
+    margin-bottom: 20px;
+  }
+  
+  .experience-item h3,
+  .education-item h3 {
+    font-size: 1.3em;
+    color: #333;
+  }
+  
+  .experience-item h3 span {
+    font-size: 0.8em;
+    color: #888;
+    margin-left: 10px;
+  }
+  
+  .experience-item ul {
+    margin-left: 20px;
+    margin-top: 10px;
+    list-style-type: disc;
+  }
+  
+  .skills p, .publication p {
+    margin: 10px 0;
+  }
+  
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2em;
+    }
+    
+    .container {
+      padding: 20px;
+    }
+  }
+  
