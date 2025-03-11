@@ -28,7 +28,7 @@ TaskManager is a simple web application for managing tasks built using **PHP**, 
 ---
 
 ## Project Structure
-
+```
 TaskMaster/
 ├── app/
 │   ├── config.php        # Database and app configuration.
@@ -47,7 +47,7 @@ TaskMaster/
 │   └── init.sql          # SQL script to create the database schema.
 ├── .gitignore            # Files/folders to exclude from Git.
 └── README.md             # Project overview and instructions.
-
+```
 
 
 *Explanation:*
